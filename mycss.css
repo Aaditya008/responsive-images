@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-top: 1.5%;
+    margin-right: auto;
+}
+
+ picture , img {
+    width: 90%;
+    transition: transform 0.2s ease-in ;
+}
+
+img :hover {
+    transform: rotate(20deg);
+    
+}
+
+@media screen and (min-width: 600px) {
+    
+    li{
+        width: 50%;
+    }
+    
+
+    
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    
+     li{
+        width: 25%;
+    }
+    
+    
+    
+    
+    
+}
+
